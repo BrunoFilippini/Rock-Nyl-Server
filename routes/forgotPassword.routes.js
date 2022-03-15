@@ -49,7 +49,7 @@ router.post("/forgot-password", async (req, res) => {
       from: "contactrocknyl@gmail.com",
       to: user.email,
       subject: "Redefina sua Senha no Rock'Nyl !",
-      /* QUAL VAI SER A MSG E O LINK? */ html: `<p>Clique no link para redefinir sua senha:<p> <a href=https://rock-nyl.netlify.app/new-password/${temporaryToken}>LINK</a>`,
+      html: `<p>Clique no link para redefinir sua senha:<p> <a href=https://rocknyl.netlify.app/new-password/${temporaryToken}>LINK</a>`,
     };
 
     //Dispara o email para o usuário
