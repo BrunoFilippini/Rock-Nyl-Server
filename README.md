@@ -7,7 +7,7 @@ Back-end project for e-commerce Rock Nyl (**web**)!
 This project has been created in the third module at Ironhack São Paulo - Web Development Bootcamp Fulltime.
 
 Simple REST API to allow for complete CRUD at the endpoint:
-https://rock-nyl.netlify.app/
+https://rocknyl.netlify.app/
 
 # Usage
 
